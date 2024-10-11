@@ -24,7 +24,7 @@ if __name__ == '__main__':
     args = parser.parse_args()
 
     print('Loading model from:', args.model_path)
-    model = tf.saved_model.load(args.model_path)
+    model = tf.keras.models.load_model(args.model_path)
 
     print('Loading image from:', args.input)
     img = load_image(args.input)
