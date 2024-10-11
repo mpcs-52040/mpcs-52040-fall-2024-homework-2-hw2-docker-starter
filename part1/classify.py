@@ -20,7 +20,7 @@ if __name__ == '__main__':
     parser = argparse.ArgumentParser()
     parser.add_argument('--input', type=str, required=True)
     parser.add_argument('--model-path', type=str,
-                        required=False, default='/tmp/mnist_model/')
+                        required=False, default='/tmp/mnist_model/mnist_model.keras')
     args = parser.parse_args()
 
     print('Loading model from:', args.model_path)
