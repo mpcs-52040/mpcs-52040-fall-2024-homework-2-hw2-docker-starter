@@ -40,3 +40,7 @@ This document provides a summary of the top 16 most frequently used words:
 | from | 3652 |
 | not | 3176 |
 | linux | 2960 |
+
+## Known Issues
+
+No known issues are found yet, this works well for Mac 

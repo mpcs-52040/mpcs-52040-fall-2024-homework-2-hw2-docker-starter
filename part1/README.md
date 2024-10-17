@@ -25,3 +25,7 @@ This project builds and runs a Docker container that trains an MNIST classifier 
 4. **Run the infer.sh script to make predictions:**
    ```bash
    ./infer.sh
+
+## Known Issues
+
+No known issues are found yet, this works well for Windows 
