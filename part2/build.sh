@@ -1,0 +1,1 @@
+docker build -t word_count_image .
